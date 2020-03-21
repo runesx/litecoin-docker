@@ -11,4 +11,3 @@ if [[ "$1" == "litecoin-cli" || "$1" == "litecoin-tx" ]]; then
 else
   exec $GOSU "litecoind"
 fi
-
